@@ -1,0 +1,6 @@
+rootProject.name = 'collider-parent'
+include ':collider'
+include ':collider-demos'
+
+project(':collider').projectDir = "$rootDir/collider" as File
+project(':collider-demos').projectDir = "$rootDir/collider-demos" as File
